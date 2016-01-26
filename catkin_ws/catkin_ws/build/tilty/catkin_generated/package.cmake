@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "tilty")
+set(tilty_MAINTAINER "michele <michele@todo.todo>")
+set(tilty_DEPRECATED "")
+set(tilty_VERSION "0.0.0")
+set(tilty_BUILD_DEPENDS "message_generation" "roscpp" "std_msgs" "sensor_msgs" "geometry_msgs")
+set(tilty_RUN_DEPENDS "message_runtime" "roscpp" "std_msgs" "geometry_msgs" "sensor_msgs")
+set(tilty_BUILDTOOL_DEPENDS "catkin")

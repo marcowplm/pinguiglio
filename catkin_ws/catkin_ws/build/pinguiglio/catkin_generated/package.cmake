@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "pinguiglio")
+set(pinguiglio_MAINTAINER "Michele Persiani <michele.persiani@mail.polimi.it>, Marco Lattarulo <marco.lattarulo@mail.polimi.it>")
+set(pinguiglio_DEPRECATED "")
+set(pinguiglio_VERSION "1.0.0")
+set(pinguiglio_BUILD_DEPENDS "message_generation" "roscpp" "std_msgs" "sensor_msgs" "geometry_msgs")
+set(pinguiglio_RUN_DEPENDS "message_runtime" "roscpp" "std_msgs" "geometry_msgs" "sensor_msgs")
+set(pinguiglio_BUILDTOOL_DEPENDS "catkin")

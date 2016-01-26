@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "r2p_msgs")
+set(r2p_msgs_MAINTAINER "Martino Migliavacca <martino.migliavacca@gmail.com>")
+set(r2p_msgs_DEPRECATED "")
+set(r2p_msgs_VERSION "0.1.0")
+set(r2p_msgs_BUILD_DEPENDS "message_generation")
+set(r2p_msgs_RUN_DEPENDS "message_runtime")
+set(r2p_msgs_BUILDTOOL_DEPENDS "catkin")

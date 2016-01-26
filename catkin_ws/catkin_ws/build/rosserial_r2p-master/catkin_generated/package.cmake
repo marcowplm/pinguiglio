@@ -1,0 +1,7 @@
+set(_CATKIN_CURRENT_PACKAGE "rosserial_r2p")
+set(rosserial_r2p_MAINTAINER "Martino Migliavacca <martino.migliavacca@gmail.com>, Ludovico Russo <ludus.russo@gmail.com>")
+set(rosserial_r2p_DEPRECATED "")
+set(rosserial_r2p_VERSION "0.1.1")
+set(rosserial_r2p_BUILD_DEPENDS "message_generation")
+set(rosserial_r2p_RUN_DEPENDS "rospy" "rosserial_msgs" "rosserial_client" "message_runtime")
+set(rosserial_r2p_BUILDTOOL_DEPENDS "catkin")

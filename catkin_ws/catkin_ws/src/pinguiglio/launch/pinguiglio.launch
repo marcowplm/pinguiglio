@@ -1,0 +1,8 @@
+<launch>
+	<include file="$(find tilty_base)/launch/base.launch" />
+	<node pkg="joy"			type="joy_node" 		name="joy_node" />
+	<node pkg="pinguiglio"		type="pinguiglio_joy" 		name="joy_filter" />
+	<node pkg="openni2_camera"	type="openni2_camera_node" 	name="camera_node">
+		<param name="color_mode" value="9" />
+	</node>
+</launch>

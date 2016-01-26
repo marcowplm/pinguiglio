@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/catkin_ws/src/tilty/src/tilty_joy.cpp
+ros/ros.h
+/home/ubuntu/catkin_ws/src/tilty/src/ros/ros.h
+geometry_msgs/Twist.h
+/home/ubuntu/catkin_ws/src/tilty/src/geometry_msgs/Twist.h
+sensor_msgs/Joy.h
+/home/ubuntu/catkin_ws/src/tilty/src/sensor_msgs/Joy.h
+

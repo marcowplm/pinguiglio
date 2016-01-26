@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/devel
+
+Name: pinguiglio
+Description: Description of pinguiglio
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/ubuntu/catkin_ws/devel/lib 
+Requires: roscpp std_msgs sensor_msgs geometry_msgs message_runtime

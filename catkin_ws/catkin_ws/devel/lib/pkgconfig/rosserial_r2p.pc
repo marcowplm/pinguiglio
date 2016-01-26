@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/catkin_ws/devel
+
+Name: rosserial_r2p
+Description: Description of rosserial_r2p
+Version: 0.1.1
+Cflags: -I/home/ubuntu/catkin_ws/devel/include
+Libs: -L/home/ubuntu/catkin_ws/devel/lib 
+Requires: message_runtime
